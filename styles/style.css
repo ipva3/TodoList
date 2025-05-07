@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Sansation", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.page_footer,
+.page_header {
+  padding: 0.5rem;
+  height: 2.5rem;
+  position: fixed;
+  inset: 0;
+  vertical-align: middle;
+}
+
+.page_header {
+  bottom: unset;
+}
+
+.page_header__logo {
+  max-height: 1.5rem;
+}
+
+.page_header__title {
+  line-height: 1.5rem;
+  font-weight: bold;
+}
+
+.page_footer {
+  top: unset;
+}
+
+.page_footer__rights {
+  line-height: 1.5rem;
+}
+
+.page_content {
+  height: 100vh;
+  padding: 3rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page_content__wrapper {
+  width: clamp(350px, 100%, 600px);
+  height: clamp(400px, 100%, 700px);
+}
+
+.form,
+.page_content__form {
+
+}
+
+.form__input {
+
+}
+
+.form__action {
+
+}
+
+.filters,
+.page_content__filters {
+
+}
+
+.filters .active {
+  font-weight: bold;
+}
+
+.filters__all {
+
+}
+
+.filters__done {
+
+}
+
+.filters__todo {
+
+}
+
+.task_list,
+.page_content__task_list {
+
+}
+
+.task,
+.task_list__task {
+
+}
+
+.task__title {
+
+}
+
+.task__title.completed {
+  text-decoration: line-through;
+}
+
+.task__action {
+}
+
+.task__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.pagination,
+.page_content__pagination {
+
+}
+
+.pagination .active {
+  font-weight: bold;
+}

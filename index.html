@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>ToDo List</title>
+</head>
+<body>
+  <header class="page_header">
+    <img src="" alt="page-logo" class="page_header__logo" />
+    <span class="page_header__title">ToDo List</span>
+  </header>
+
+  <main class="page_content">
+    <div class="page_content__wrapper">
+      <form id="form" class="form page_content__form">
+        <input id="form-input" type="text" autocomplete="off" class="form__input" />
+        <button type="submit" class="form__action">Add</button>
+      </form>
+  
+      <div class="filters page_content__filters">
+        <button id="filter-all" class="filters__all">All</button>
+        <button id="filter-done" class="filters__done">Done</button>
+        <button id="filter-todo" class="filters__todo">To do</button>
+      </div>
+  
+      <ul id="list" class="task_list page_content__task_list"></ul>
+  
+      <div id="pagination" class="pagination page_content__pagination"></div>
+    </div>
+  </main>
+
+  <footer class="page_footer">
+    <span class="page_footer__rights">
+      &copy;&nbsp;All&nbsp;rights&nbsp;reserved!&nbsp;2025
+    </span>
+  </footer>
+
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
